@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block list %}
+
+{% endblock %}
+
+{% block name %} 
+    Изменить заметку
+{% endblock %}
+
+{% block form %}
+    <form action="/edit/{{id}}" method="POST" class="row bg-white rounded shadow-sm p-2 add-todo-wrapper align-items-center justify-content-center">
+        <div class="col">
+            <input name='task_content' id="content" class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="{{task.content}}">
+        </div>
+        <div class="col-auto px-0 mx-0 mr-2">
+            <input type="submit" class="btn btn-primary" title="Update">
+        </div>                    
+    </form>
+{% endblock %}
