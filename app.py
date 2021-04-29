@@ -44,7 +44,7 @@ def check(id):
 @app.route('/uncheck/<int:id>')
 def uncheck(id):
     ttuc = Todo.query.get_or_404(id) #task to uncheck
-    try:
+    try: 
         ttuc.check = False
         db.session.commit()
         return redirect('/')
