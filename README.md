@@ -3,13 +3,4 @@
 
 The program works like this:
 
-![program](https://www.youtube.com/watch?v=vv7fCWbf4Nc)
-
- ```diff
-   "scripts": {
-     "build": "webpack ./webpack.config.js",
-     "size": "npm run build && size-limit",
- -   "test": "jest && eslint ."
- +   "test": "jest && eslint . && npm run size"
-   }
- ```
+[!Program](https://img.youtube.com/vi/https://www.youtube.com/watch?v=vv7fCWbf4Nc/0.jpg)](https://www.youtube.com/watch?v=vv7fCWbf4Nc)
