@@ -5,15 +5,11 @@ The program works like this:
 
 ![program](https://www.youtube.com/watch?v=vv7fCWbf4Nc)
 
-```diff
-"size-limit": [
- {
-     "path": "dist/app-*.js"
+ ```diff
+   "scripts": {
+     "build": "webpack ./webpack.config.js",
+     "size": "npm run build && size-limit",
+ -   "test": "jest && eslint ."
+ +   "test": "jest && eslint . && npm run size"
    }
- ],
-  "scripts": {
-    "build": "webpack ./webpack.config.js",
-   "size": "npm run build && size-limit",
-    "test": "jest && eslint ."
-  }
-```
+ ```
