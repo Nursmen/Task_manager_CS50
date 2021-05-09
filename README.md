@@ -1,6 +1,14 @@
 # Nurs.ga
-> Some info
+Program is a minimal task manager.
 
-The program works like this:
+With it you can:
+- Remember someting
+- Update tasks
+- Delete tasks
+- Check tasks
 
-[!Program](https://img.youtube.com/vi/https://www.youtube.com/watch?v=vv7fCWbf4Nc/0.jpg)](https://www.youtube.com/watch?v=vv7fCWbf4Nc)
+Program created for `cs50` course as final project
+
+I am gonna say thanks to :
+1. My duck Programm Master
+2. My another duck Program Mister
