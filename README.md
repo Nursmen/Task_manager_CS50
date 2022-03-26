@@ -1,4 +1,4 @@
-# Nurs.ga
+# Task manager
 Program is a minimal task manager.
 
 With it you can:
